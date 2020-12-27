@@ -1,4 +1,4 @@
-#CLIENTcode2
+#CLIENTCODE2
 
 import socket
 

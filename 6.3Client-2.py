@@ -1,3 +1,5 @@
+#CLIENTcode2
+
 import socket
 
 cSocket = socket.socket()
@@ -22,7 +24,7 @@ while True:
 	choice = input("Enter choice(1/2/3): ")
 	cSocket.send(str.encode(choice))
 	if choice in ('1', '2', '3'):
-		num1 = input("Ënter number:")
+		num1 = input("Enter number:")
 		cSocket.send(str.encode(num1))
 	else:
 		print("Invalid Input")
